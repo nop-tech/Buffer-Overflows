@@ -22,5 +22,5 @@ while True:
     except:
         print('Fuzzing crashed at {}'.format(len(payload)))
         sys.exit(0)
-    buffer += b'A' * 100
+    payload += b'A' * 100
     time.sleep(1)
